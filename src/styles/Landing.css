@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.heroSection {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heroText {
+    width: 40%;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.heroImage {
+    width: 35%;
+}
+
+.advantagesSection {
+    height: 100vh;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages {
+    height: 60vh;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.65rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.advantageImage {
+    width: 70%;
+}
+
+.problemSetSection {
+    height: 100vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.problemSetExample {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 55%;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 1.5rem;
+    border: 5px solid rgba(255, 255, 255, 0.18);
+}
+
+.problemSetText {
+    width: 40%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+td {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd2c;
+}
+
+
+.leaderBoardSection {
+    height: 100vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.leaderBoardExample {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 55%;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 1.5rem;
+    border: 5px solid rgba(255, 255, 255, 0.18);
+}
+
+.leaderBoardText {
+    width: 40%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.joinUs
+{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.joinUsButton
+{
+    text-align: center;
+    height: 4rem;
+    width: 15%;
+    font-size: 1.5rem;
+    background-color: white;
+    color: blue;
+    border-radius: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px){
+    .heroSection
+    {
+        padding: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .heroText
+    {
+        width: 80%;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    .heroImage
+    {
+        width: 80%;
+    }
+
+    .advantagesSection
+    {
+        padding: 0;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 5vh;
+    }
+    .advantages
+    {
+        width: 80%;
+    }
+
+    .problemSetSection
+    {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    .problemSetExample
+    {
+        width: 80%;
+    }
+
+    .problemSetText
+    {
+        width: 80%;
+        font-size: 2.4rem;
+    }
+
+    .leaderBoardSection
+    {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .leaderBoardExample
+    {
+        width: 80%;
+    }
+
+    .leaderBoardText
+    {
+        width: 80%;
+        font-size: 2.4rem;
+    }
+    th
+    {
+        font-size: 2.5vh;
+    }
+    td
+    {
+        font-size: 1.8vh;
+    }
+
+    .joinUs
+    {
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    .joinUsButton
+    {
+        height: 4rem;
+        width: 80%;
+    }
+
+    
+}
