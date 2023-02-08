@@ -1,0 +1,72 @@
+.problemSetPage
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+
+.filterByTag
+{
+    height: 3rem;
+    border-radius: 1.5rem;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minRating
+{
+    height: 3rem;
+    border-radius: 1.5rem;
+    width: 27%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxRating
+{
+    height: 3rem;
+    border-radius: 1.5rem;
+    width: 27%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problemSetTable
+{
+    width: 80%;
+    overflow-x: auto;
+    height: 80vh;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 1, 10, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 1.5rem;
+    border: 5px solid rgba(255, 255, 255, 0.18);
+}
+
+@media screen and (max-width: 991px){
+    .contestSearchBox
+    {
+        width: 80%;
+        height: 4rem;
+    }
+
+    .minRating, .maxRating, .filterByTag
+    {
+        height: 2.5rem;
+    }
+}

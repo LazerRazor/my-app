@@ -42,7 +42,7 @@
     font-weight: 500;
     color: white;
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(1, 2, 18, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
@@ -68,7 +68,7 @@
     width: 55%;
     height: 60vh;
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(1, 2, 13, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 1.5rem;
@@ -127,7 +127,7 @@ tr:nth-child(even) {
     width: 55%;
     height: 60vh;
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 1, 5, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 1.5rem;
@@ -173,6 +173,7 @@ tr:nth-child(even) {
 @media screen and (max-width: 991px){
     .heroSection
     {
+        margin-top: 2rem;
         padding: 0;
         flex-direction: column;
         justify-content: space-evenly;
@@ -241,7 +242,7 @@ tr:nth-child(even) {
     }
     td
     {
-        font-size: 1.8vh;
+        font-size: 1rem;
     }
 
     .joinUs
@@ -255,6 +256,11 @@ tr:nth-child(even) {
     {
         height: 4rem;
         width: 80%;
+    }
+
+    .Title
+    {
+        font-size: 3rem;
     }
 
     

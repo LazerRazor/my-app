@@ -54,7 +54,33 @@ ul {
 .navigationBarResponsive
 {
     display: none;
+    height: 5rem;
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    z-index: 333;
+    top: 0;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 1, 13, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }  
+
+.responsiveMenu
+{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(11, 10, 87);
+    z-index: 5;
+    font-size: 2rem;
+    overflow-y: hidden;
+}
 
 @media screen and (max-width: 991px){
     .navigationBar
@@ -63,8 +89,14 @@ ul {
     }
     .navigationBarResponsive
     {
-        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }    
+    .Title
+    {
+        font-size: 3rem;
+    }
 }
 
 a
@@ -72,3 +104,4 @@ a
     color: white;
     text-decoration: none;
 }
+

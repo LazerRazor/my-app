@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
 import Contests from './components/Contests';
+import Problemset from './components/Problemset';
+import Leaderboard from './components/Leaderboard';
 import {
     createBrowserRouter,
     RouterProvider,
@@ -18,11 +20,11 @@ const router = createBrowserRouter([
     },
     {
         path: "/problemset",
-        element: <h1>Hello World 2</h1>,
+        element: <Problemset/>,
     },
     {
         path: "/leaderboard",
-        element: <h1>Hello World 3</h1>,
+        element: <Leaderboard/>,
     }
 ]);
 
